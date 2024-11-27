@@ -1,0 +1,45 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-1931f4194a5-4ed4130ba42f6e23": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "playground_sp1_20241108_fb42c51d73",
+			"save-password": true,
+			"configuration": {
+				"host": "rc1b-ibh8zlbmuynmtr4i.mdb.yandexcloud.net",
+				"port": "6432",
+				"database": "playground_sp1_20241108_fb42c51d73",
+				"url": "jdbc:postgresql://rc1b-ibh8zlbmuynmtr4i.mdb.yandexcloud.net:6432/playground_sp1_20241108_fb42c51d73",
+				"configurationType": "MANUAL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
+			},
+			"custom-properties": {
+				"sql.format.keywordCase": "UPPER"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
